@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  background: #02CCBA;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  height: 100%;
+}
+/* HAMBURGER ICON */
+.contact .menu-icon {
+  position: fixed;
+  right:0;
+  top:34px;
+  right:34px;
+  padding: 20px;
+  z-index: 11;
+}
+.contact .menu-icon .fas{
+  color:black;
+  font-size: 50px;
+}
+/* MENU */
+#menu {
+  background: #02CCBA;
+  position: fixed;
+  width: 100%;
+  top:0;
+  bottom:0;
+  transform: translate3d(-100%,0,0);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition:all .5s ease-in-out;
+}
+#menu nav {
+  width: 400px;
+  text-align: center;
+}
+#menu nav a {
+  display: block;
+  font-size: 70px;
+  padding:30px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  color:#E1F9F7;
+}
+#menu nav a:hover {
+  color:#A4B5B4;
+}
+/* HAMBURGER ACTIVE MENU */
+.menu-active .menu-icon .fas{
+  color:#E1F9F7;
+}
+.menu-active #menu {
+  width: 100%;
+  top:0;
+  bottom:0;
+  transform: translate3d(0,0,0);
+}
+/* INFO SECTION */
+.contact .info-section {
+  width:35%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  padding: 54px;
+}
+.contact .info-section .logo {
+  font-size: 120px;
+}
+.contact .info-section .info-box {
+  bottom: 60px;
+  position: absolute;
+}
+.contact .info-section .info-box h4 {
+  font-size: 40px;
+  color:#E1F9F7;
+  margin: 0.7rem 0;
+  font-family: 'Nunito', sans-serif;
+}
+.contact .info-section .info-box p {
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  color:#E1F9F7;
+  margin-bottom: 40px;
+  font-family: 'Nunito', sans-serif;
+}
+.contact .info-section .info-box .icon-section {
+  display: block;
+  font-size: 46px;
+  color:white;
+}
+.contact .info-section .info-box .icon-section a {
+  color:white;
+  padding-right: 20px;
+}
+.contact .info-section .info-box .icon-section a .linkedin:hover{
+  color:#2852B8;
+}
+.contact .info-section .info-box .icon-section a .github:hover {
+  color:black;
+}
+/* CONTENT AREA */
+.contact .content-area {
+  margin-left: 35%;
+  background: linear-gradient(135deg, rgba(241,249,248,1) 0%,rgba(233,245,243,1) 17%,rgba(225,241,239,1) 33%,rgba(189,255,246,1) 67%,rgba(179,255,245,1) 83%,rgba(169,255,244,1) 100%);
+  width: 65%;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+.contact .content-area .img-container {
+  width:30%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.contact .content-area .img-container .form-section form {
+  background: #37393D;
+  position: absolute;
+  left: -400px;
+  top: 150px;
+  width:800px;
+  height:1150px;
+  color:white;
+  padding:46px;
+  border:-webkit-box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.39);
+box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.39);
+}
+.form-section form h4 {
+  font-size: 40px;
+  font-family: 'Nunito' sans-serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color:white;
+}
+.form-section form input[type='text'],
+.form-section form input[type='email'],
+textarea {
+  background: transparent;
+  border:none;
+  border-bottom: 2px solid white;
+  width:100%;
+  margin-bottom: 50px;
+  font-size: 25px;
+  color:white;
+  font-weight: lighter;
+  text-transform: none;
+  line-height: 1.4;
+  padding: 15px 0;
+}
+button[type='submit'] {
+  background: #FF5F5E;;
+  border: none;
+  border-radius: 25px;
+  padding: 20px;
+  letter-spacing: 3px;
+  font-size: 30px;
+  cursor:pointer;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+.contact .content-area .contact-section {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 30px;
+  max-width: 500px;
+  padding: 22% 0 0;
+}
+.contact .content-area .contact-section .profile h1 {
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.contact .content-area .contact-section .profile h1 span {
+  color:#02CCBA;
+}
+.contact .content-area .contact-section .profile h5 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+.contact .content-area .contact-section .profile p{
+  font-weight: lighter;
+  color: #A4B5B4;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+/* .contact .content-area .contact-section .profile .email {
+  font-size: 40px;
+}
+.contact .content-area .contact-section .profile .btn {
+  background: #FF5F5E;
+  border-radius: -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  width: 55%;
+  margin-top: 15px;
+}
+.contact .content-area .contact-section .profile .btn:hover {
+  background: #02CCBA;
+  transition: .1s ease-in-out;
+} */
+
+@media (min-width: 300px) and (max-width:320px) {
+  .contact .info-section .info-box {
+    position: relative;
+    height: 500px;
+  }
+  .contact .info-section .info-box h4 {
+    display: none;
+  }
+  .contact .info-section .info-box .icon-section{
+    font-size: 30px;
+    margin-top: -43px;
+    margin-left: 230px;
+    color: black;
+    position: absolute;
+  }
+  .contact .info-section .info-box .icon-section a {
+    color:black;
+  }
+  .contact .info-section .info-box .icon-section .linkedin{
+    color:#2852B8;
+    margin: -37px;
+  }
+  .contact .info-section .info-box .icon-section .github {
+    color:black;
+    margin-left: 52px;
+  }
+  .contact .info-section .logo img{
+    font-size: 30px;
+    margin-top: 5px;
+    height: 42px;
+    margin-bottom: 48px;
+    margin-left: 15px;
+  }
+ .contact .info-section {
+   position: static;
+   padding: 0;
+   height: 60px;
+  }
+  .contact .content-area .contact-section .profile .contact-box {
+    margin-left: 10px;
+  }
+}

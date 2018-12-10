@@ -1,0 +1,844 @@
+* {
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+}
+body,
+html {
+ background: #02CCBA;
+ font-size: 18px;
+ font-family: 'Nunito', sans-serif;
+ height: 100%;
+}
+.about .info-section {
+ width:35%;
+ position: absolute;
+ top:0;
+ bottom: 0;
+ left: 0;
+ padding: 54px;
+}
+.about .info-section .logo {
+ font-size: 120px;
+ margin-top: -5px;
+margin-left: -5px;
+}
+.about .info-section .logo img {
+ width:  110px;
+ height: 100px;
+}
+.about .info-section .info-box {
+ bottom: 30px;
+ position: absolute;
+}
+.about .info-section .info-box h4 {
+ font-size: 28px;
+ color:white;
+ margin: 0.7rem 0;
+ font-family: 'Nunito', sans-serif;
+ font-weight: normal;
+}
+.about .info-section .info-box p {
+ font-size: 30px;
+ font-weight: lighter;
+ font-style: italic;
+ color:white;
+ margin-bottom: 40px;
+ font-family: 'Nunito', sans-serif;
+}
+.about .info-section .info-box .icon-section {
+ display: block;
+ font-size: 36px;
+ color:white;
+}
+.about .info-section .info-box .icon-section a {
+ color:white;
+ padding-right: 20px;
+}
+.about .info-section .info-box .icon-section a .linkedin:hover{
+ color:#2852B8;
+}
+.about .info-section .info-box .icon-section a .github:hover {
+ color:black;
+}
+/* CONTENT AREA */
+.about .content-area {
+  margin-left: 20%;
+  background: white;
+  width: 80%;
+  min-width: 300px;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+}
+.about .content-area .scroll-section {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 54px;
+}
+.about .content-area h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about .content-area h1 .me {
+  color:#02CCBA;
+}
+.about .content-area h5 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about .content-area .xp-section .xp-box p {
+  text-indent: 50px;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.8;
+  width: 600px;
+  margin-left: 134px;
+}
+.about .content-area .xp-section .xp-box-2 p,
+.about .content-area .xp-section .xp-box-4 p {
+  text-indent: 50px;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.8;
+  width: 575px;
+  margin-left: 168px;
+}
+.about .content-area .xp-section {
+  display:grid;
+  grid-column-gap: 54px;
+  grid-row-gap: 100px;
+  max-width: 2000px;
+}
+.about .content-area .xp-section .xp-box{
+  padding: 30px;
+  transition: all .2 ease-in-out;
+}
+
+
+
+@media only screen and (max-width: 360px) {
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .about .info-section .info-box {
+    position: relative;
+    height: 500px;
+  }
+  .about .info-section .info-box h4 {
+    display: none;
+  }
+  .about .info-section .info-box .icon-section{
+    font-size: 30px;
+    margin-top: -72px;
+    margin-left: 280px;
+    color: black;
+    position: absolute;
+    display: inline-flex;
+  }
+  .about .info-section .info-box .icon-section a {
+    color:black;
+
+  }
+  .about .info-section .info-box .icon-section .linkedin{
+    color:#2852B8;
+    margin: -37px;
+  }
+  .about .info-section .info-box .icon-section .github {
+    color:black;
+
+  }
+  .about .content-area .profile-section {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    max-width: 500px;
+    padding: 22% 0 0;
+  }
+  .about .content-area .profile-section .profile {
+    margin-top:220px;
+    margin-left: -60px;
+  }
+  .about .info-section .logo img{
+    font-size: 30px;
+    margin-top: 5px;
+    height: 44px;
+    margin-bottom: 48px;
+    margin-left: 15px;
+    width: 60%;
+  }
+ .about .info-section {
+   position: static;
+   padding: 0;
+   height: 60px;
+  }
+ .about .content-area {
+   margin-left: 0px;
+   width: 100%;
+   margin-top: -3px;
+   height: 875px;
+ }
+ .about .content-area .scroll-section .title h1{
+   margin-top:-22px;
+   font-size: 30px;
+ }
+ .about .content-area .scroll-section .xp-section {
+   display: block;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box h5{
+   font-size: 20px;
+    margin-top: -100px;
+    margin-bottom: 7px;
+    font-weight: bold;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box p {
+   font-size: 14px;
+    width: 424px;
+    margin-bottom: 55px;
+    margin-left: -53px;
+    padding-right: 125px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 {
+   margin-top: 24px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 h5 {
+   font-size: 20px;
+    margin-top: -94px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: 0px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 p {
+   font-size: 14px;
+ width: 430px;
+ margin-bottom: 74px;
+ margin-left: -22px;
+ padding-right: 125px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 h5 {
+   font-size: 20px;
+    margin-top: -94px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: 0px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 {
+   margin-top:24px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 p {
+   font-size: 14px;
+width: 430px;
+margin-bottom: 88px;
+margin-left: -22px;
+padding-right: 125px;
+ }
+}
+
+@media (min-width:370px) and (max-width:375px) {
+  .about .info-section .info-box {
+    position: relative;
+    height: 500px;
+  }
+  .about .info-section .info-box h4 {
+    display: none;
+  }
+  .about .info-section .info-box .icon-section{
+    font-size: 30px;
+    margin-top: -72px;
+    margin-left: 292px;
+    color: black;
+    position: absolute;
+    display: inline-flex;
+  }
+  .about .info-section .info-box .icon-section a {
+    color:black;
+
+  }
+  .about .info-section .info-box .icon-section .linkedin{
+    color:#2852B8;
+    margin: -37px;
+  }
+  .about .info-section .info-box .icon-section .github {
+    color:black;
+  }
+  .about .content-area .profile-section {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    max-width: 500px;
+    padding: 22% 0 0;
+  }
+  .about .content-area .profile-section .profile {
+    margin-top:220px;
+    margin-left: -60px;
+  }
+  .about .info-section .logo img{
+    font-size: 30px;
+    margin-top: 5px;
+    height: 44px;
+    margin-bottom: 48px;
+    margin-left: 15px;
+    width: 60%;
+  }
+  .about .menu-icon {
+    top: -5px;
+    margin-right: -15px;
+  }
+  .about .menu-icon .fas {
+    font-size: 30px;
+    display: none;
+  }
+ .about .info-section {
+   position: static;
+   padding: 0;
+   height: 60px;
+  }
+ .about .content-area {
+  margin-left: 0px;
+  width: 100%;
+  margin-top: -3px;
+  height: 700px;
+ }
+ .about .content-area .scroll-section .title h1{
+   margin-top:-22px;
+   font-size: 30px;
+ }
+ .about .content-area .scroll-section .xp-section {
+   display: block;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box h5{
+   font-size: 20px;
+    margin-top: -100px;
+    margin-bottom: 7px;
+    font-weight: bold;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box p {
+   font-size: 14px;
+    width: 424px;
+    margin-bottom: 55px;
+    margin-left: -47px;
+    padding-right: 125px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 h5 {
+   font-size: 20px;
+    margin-top: -94px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: 0px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 {
+   margin-top: 24px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 p {
+   font-size: 14px;
+    width: 438px;
+    margin-bottom: 88px;
+    margin-left: -19px;
+    padding-right: 125px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 h5 {
+   font-size: 20px;
+    margin-top: -94px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: 0px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 {
+   margin-top:24px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 p {
+   font-size: 14px;
+    width: 438px;
+    margin-bottom: 88px;
+    margin-left: -19px;
+    padding-right: 125px;
+ }
+}
+
+@media (min-width:410px) and (max-width:414px) {
+  .about .info-section .info-box {
+    position: relative;
+    height: 500px;
+  }
+  .about .info-section .info-box h4 {
+    display: none;
+  }
+  .about .info-section .info-box .icon-section{
+    font-size: 30px;
+    margin-top: -72px;
+    margin-left: 330px;
+    color: black;
+    position: absolute;
+    display: inline-flex;
+  }
+  .about .info-section .info-box .icon-section a {
+    color:black;
+
+  }
+  .about .info-section .info-box .icon-section .linkedin{
+    color:#2852B8;
+    margin: -37px;
+  }
+  .about .info-section .info-box .icon-section .github {
+    color:black;
+  }
+  .about .content-area .profile-section {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    max-width: 500px;
+    padding: 22% 0 0;
+  }
+  .about .content-area .profile-section .profile {
+    margin-top:220px;
+    margin-left: -60px;
+  }
+  .about .info-section .logo img{
+    font-size: 30px;
+    margin-top: 5px;
+    height: 44px;
+    margin-bottom: 48px;
+    margin-left: 15px;
+    width: 60%;
+  }
+  .about .menu-icon {
+    top: -5px;
+    margin-right: -15px;
+  }
+  .about .menu-icon .fas {
+    font-size: 30px;
+    display: none;
+  }
+ .about .info-section {
+   position: static;
+   padding: 0;
+   height: 60px;
+  }
+ .about .content-area {
+  margin-left: 0px;
+  width: 100%;
+  margin-top: -3px;
+  height: 700px;
+ }
+ .about .content-area .scroll-section .title h1{
+   margin-top:-22px;
+   font-size: 30px;
+ }
+ .about .content-area .scroll-section .xp-section {
+   display: block;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box h5{
+   font-size: 20px;
+    margin-top: -100px;
+    margin-bottom: 7px;
+    font-weight: bold;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box p {
+   font-size: 14px;
+    width: 424px;
+    margin-bottom: 55px;
+    margin-left: -20px;
+    padding-right: 125px;
+ }
+
+ .about .content-area .scroll-section .xp-section .xp-box-2 h5 {
+   font-size: 20px;
+    margin-top: -94px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: 0px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 {
+   margin-top: 24px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-2 p {
+   font-size: 14px;
+    width: 438px;
+    margin-bottom: 88px;
+    margin-left: 8px;
+    padding-right: 125px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 h5 {
+   font-size: 20px;
+    margin-top: -94px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: 0px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 {
+   margin-top:24px;
+ }
+ .about .content-area .scroll-section .xp-section .xp-box-4 p {
+   font-size: 14px;
+    width: 438px;
+    margin-bottom: 88px;
+    margin-left: 8px;
+    padding-right: 125px;
+ }
+}
+/* @media (min-width: 426px) and (max-width:768px) {
+  .about .info-section {
+      width: 35%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding: 54px;
+  }
+  .about .info-section .logo img{
+    font-size: 30px;
+      height: 94px;
+      margin-top: 0px;
+      padding: 9px;
+      margin-left: -37px;
+  }
+  .about .info-section .info-box h4{
+    display: none;
+  }
+  .about .info-section .info-box .icon-section {
+    font-size: 40px;
+    margin-left: -26px;
+  }
+  .about .info-section .info-box .icon-section a {
+    color:black;
+    padding-right: 20px;
+  }
+  .about .info-section .info-box .icon-section .linkedin {
+      color: #2852B8;
+      margin: -10px;
+  }
+  .about .content-area .scroll-section {
+    height:100%;
+    margin-top: 50px;
+  }
+  .about .content-area .scroll-section .title h1{
+    margin-top:-22px;
+    font-size: 30px;
+    margin-left: 12px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box h5 {
+    font-size: 20px;
+     margin-top: -100px;
+     margin-bottom: 7px;
+     font-weight: bold;
+     margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box p {
+    font-size: 14px;
+     width: 472px;
+     margin-bottom: 55px;
+     margin-left: 65px;
+     padding-right: 125px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 h5 {
+    font-size: 20px;
+     margin-top: -100px;
+     margin-bottom: 7px;
+     font-weight: bold;
+     margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 {
+    margin-top: 24px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 p {
+    font-size: 14px;
+     width: 487px;
+     margin-bottom: 88px;
+     margin-left: 94px;
+     padding-right: 125px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 h5 {
+    font-size: 20px;
+     margin-top: -100px;
+     margin-bottom: 7px;
+     font-weight: bold;
+     margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 {
+    margin-top:24px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 p {
+    font-size: 14px;
+     width: 489px;
+     margin-bottom: 55px;
+     margin-left: 94px;
+     padding-right: 125px;
+  }
+  .about .content-area .xp-section {
+    display: inline-block;
+    grid-row-gap: 4px;
+    max-width: 2000px;
+  }
+}
+@media (min-width: 769px) and (max-width:1024px) {
+  .about .info-section {
+      width: 35%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding: 54px;
+  }
+  .about .info-section .logo img{
+    font-size: 30px;
+      height: 94px;
+      margin-top: 0px;
+      padding: 9px;
+      margin-left: -37px;
+  }
+  .about .info-section .info-box h4{
+    display: none;
+  }
+  .about .info-section .info-box .icon-section {
+    font-size: 40px;
+    margin-left: -26px;
+  }
+  .about .info-section .info-box .icon-section a {
+    color:black;
+    padding-right: 20px;
+  }
+  .about .info-section .info-box .icon-section .linkedin {
+      color: #2852B8;
+      margin: -10px;
+  }
+  .about .content-area .scroll-section {
+    height:100%;
+    margin-top: 50px;
+  }
+  .about .content-area .scroll-section .title h1{
+    margin-top:-22px;
+    font-size: 30px;
+    margin-left: 12px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box h5{
+    font-size: 20px;
+     margin-top: -100px;
+     margin-bottom: 7px;
+     font-weight: bold;
+     margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box p {
+    font-size: 14px;
+     width: 472px;
+     margin-bottom: 55px;
+     margin-left: 65px;
+     padding-right: 125px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 {
+    margin-left: -100px;
+    margin-top: 0px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 h5 {
+    font-size: 20px;
+    margin-top: -71px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 p {
+    text-indent: 50px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    width: 303px;
+    margin-left: -49px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 {
+    margin-left: -100px;
+    margin-top: 30px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 h5 {
+    font-size: 20px;
+    margin-top: -100px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 p {
+    text-indent: 50px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    width:303px;
+    margin-left: -49px;
+  }
+  .about .content-area .xp-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 54px;
+    grid-row-gap: 100px;
+    max-width: 2000px;
+    margin-left: -100px;
+  }
+  .about .content-area h5 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .about .content-area p {
+    text-indent: 50px;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+  }
+  .about .content-area .xp-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 54px;
+    grid-row-gap: 100px;
+    max-width: 2000px;
+  }
+  .about .content-area .xp-section .xp-box{
+    padding: 30px;
+    transition: all .2 ease-in-out;
+  }
+  .about .content-area .xp-section .xp-box:hover {
+  border:-webkit-box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.12);
+  box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.12);
+  }
+}
+@media (min-width: 1025px) and (max-width:1440px) {
+  .about .info-section {
+      width: 35%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding: 54px;
+  }
+  .about .info-section .logo img{
+    font-size: 30px;
+      height: 94px;
+      margin-top: 0px;
+      padding: 9px;
+      margin-left: -37px;
+  }
+  .about .info-section .info-box h4{
+    display: none;
+  }
+  .about .info-section .info-box .icon-section {
+    font-size: 40px;
+    margin-left: -26px;
+  }
+  .about .info-section .info-box .icon-section a {
+    color:black;
+    padding-right: 20px;
+  }
+  .about .info-section .info-box .icon-section .linkedin {
+      color: #2852B8;
+      margin: -10px;
+  }
+  .about .content-area .scroll-section {
+    height:100%;
+    margin-top: 50px;
+  }
+  .about .content-area .scroll-section .title h1{
+    margin-top:-22px;
+    font-size: 40px;
+    margin-left: -30px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box h5{
+    font-size: 30px;
+     margin-top: -100px;
+     margin-bottom: 7px;
+     font-weight: bold;
+     margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box p {
+    font-size: 17px;
+     width: 472px;
+     margin-bottom: 55px;
+     margin-left: 65px;
+     padding-right: 125px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 {
+    margin-left: -100px;
+    margin-top: 0px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 h5 {
+    font-size: 30px;
+    margin-top: -71px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-2 p {
+    text-indent: 50px;
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    width: 352px;
+    margin-left: 37px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 {
+    margin-left: -100px;
+    margin-top: 2px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 h5 {
+    font-size: 30px;
+    margin-top: -71px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: -75px;
+  }
+  .about .content-area .scroll-section .xp-section .xp-box-4 p {
+    text-indent: 50px;
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    width:352px;
+    margin-left: 37px;
+  }
+  .about .content-area .xp-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 54px;
+    grid-row-gap: 100px;
+    max-width: 2000px;
+    margin-left: 10px;
+  }
+  .about .content-area h5 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .about .content-area p {
+    text-indent: 50px;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+  }
+  .about .content-area .xp-section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 54px;
+    grid-row-gap: 100px;
+    max-width: 2000px;
+  }
+  .about .content-area .xp-section .xp-box{
+    padding: 30px;
+    transition: all .2 ease-in-out;
+  }
+  .about .content-area .xp-section .xp-box:hover {
+  border:-webkit-box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.12);
+  box-shadow: 0px 4px 38px 14px rgba(0,0,0,0.12);
+  }
+} */
