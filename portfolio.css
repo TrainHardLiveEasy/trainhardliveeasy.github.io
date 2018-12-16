@@ -473,15 +473,15 @@ html {
     width: 210px;
   }
   .portfolio .content-area .work-section .work-box-1 .overlay,
-  .work-box-2 .overlay,
-  .work-box-3 .overlay {
+  .portfolio .content-area .work-section .work-box-2 .overlay,
+  .portfolio .content-area .work-section .work-box-3 .overlay {
     display: none;
   }
-  .portfolio .content-area .work-section .work-box-1 .overlay .project-info,
+  /*.portfolio .content-area .work-section .work-box-1 .overlay .project-info,
   .work-box-2 .overlay .project-info,
   .work-box-3 .overlay .project-info{
     display: none;
-  }
+  }*/
   .portfolio .content-area .scroll-section .work-section .work-box-1 img{
     width: 274px;
     margin-left: -31px;
