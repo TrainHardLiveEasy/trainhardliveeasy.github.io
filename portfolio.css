@@ -472,6 +472,11 @@ html {
     margin-left: 20px;
     width: 210px;
   }
+  .portfolio .content-area .work-section .work-box-1 .overlay,
+  .work-box-2 .overlay,
+  .work-box-3 .overlay {
+    display: none;
+  }
   .portfolio .content-area .work-section .work-box-1 .overlay .project-info,
   .work-box-2 .overlay .project-info,
   .work-box-3 .overlay .project-info{
@@ -581,6 +586,11 @@ html {
     max-width: 2000px;
     margin-left: 28px;
     width: 210px;
+  }
+  .portfolio .content-area .work-section .work-box-1 .overlay,
+  .work-box-2 .overlay,
+  .work-box-3 .overlay {
+    display: none;
   }
   .portfolio .content-area .work-section .work-box-1 .overlay .project-info,
   .work-box-2 .overlay .project-info,
